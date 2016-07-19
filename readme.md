@@ -21,7 +21,7 @@ We will accept the following exceptions:
 
 ## Complete work:
 
-Can be accessed through this link: (legibra.j-tech.tech).
+Can be accessed through this link http://legibra.j-tech.tech
 
 ## Preview of technologies used:
 	1.	CSS3 :- 

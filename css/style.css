@@ -16,6 +16,7 @@
 		6. About
 		7. Services
 		8. Works
+		9. Our Team
 
 */
 
@@ -51,6 +52,9 @@
     	border-radius: initial;
 	    padding: 10px 40px;
 	    background-color: rgba(255, 255, 255, 0);
+	}
+	.legibra-title{
+		font-size:50px;
 	}
 
 /* 3. Preloader */
@@ -291,10 +295,9 @@
 		position: absolute;
 		width: 100%;
 	}
-	#our-works .work-style{
+	#our-works .legibra-title-works{
 		font-size:50px;
-	    color: #fff;
-	    
+	    color: #fff; 
 	}
 	#our-works .item{
 		padding-left: 140px;
@@ -305,15 +308,60 @@
 	#our-works .carousel-inner{
 	    padding-top: 40px;
 	}
-	/*#our-works .carousel{
-	    margin-top: 50px;
-	}*/
 	#our-works .carousel-indicators{
 	    top:480px;
 	}
 	#our-works .item img{
 		width:100%;
 	}
-	/*#our-works .carousel-control{
-		width: 0;
-	}*/
+
+/*9. Our Team*/
+	#our-team{
+		margin-bottom:100px;
+	}
+	#our-team .our-team-image img{
+		border-radius: 50%;
+    	width: 200px;
+	    border: 11px solid #f5f5f5;
+	}
+	#our-team .our-team-box{
+	    background-color: #fff;
+        padding: 80px 0px;
+	}
+	#our-team .our-team-space{
+	    margin-left: 35px;
+	    margin-right: 35px;
+	    margin-top: -50px;
+	    padding-top: 0px;
+	}
+	#our-team .our-team-sub-box{
+	    background-color: #ccbbff;
+        padding: 15px 0px;
+	}
+	#our-team .fa {
+		background-color: #f5f5f5;
+	    padding: 10px;
+	    border-radius: 50%;
+	}
+
+	#our-team .carousel-control{
+	    color: #000;
+	}
+	#our-team .carousel-control.right{
+	    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);
+	    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+	    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0, 0, 0, 0)));
+	    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);
+	}
+	#our-team .carousel-control.left{
+	    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0) 0,rgba(0,0,0,.0001) 100%);
+	    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0, 0, 0, 0)),to(rgba(0,0,0,.0001)));
+	    background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0,0,0,.0001) 100%);
+	}
+	#our-team .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	    left: 15%;
+	}
+	#our-team .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	    right: 15%;
+	}

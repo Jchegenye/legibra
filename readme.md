@@ -14,7 +14,7 @@ Submission date, Thursday 21st July 2016 at 10:00 AM.
 
 	4.      Anchor links should incorporate smooth scroll
 
-	5.      The one page website should be submitted via a GitHub project link only, any other method will lead to automatic disqualification
+	5.      The one page website should be submitted via a GitHub project link only, any other method will lead to automatic disqualification.
 
 We will accept the following exceptions:
 	·       Should you not have the fonts used in the design, you are free to substitute with your own fonts

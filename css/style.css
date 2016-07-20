@@ -15,6 +15,7 @@
 		5. Home
 		6. About
 		7. Services
+		8. Works
 
 */
 
@@ -34,11 +35,22 @@
 	p{
 		color:#505050;
 	}
+	/* --- Search ---*/
 	.search{
 		color:#fff;
 	}
 	.search:hover{
 		color:#505050;
+	}
+	/* --- Button ---*/
+	.btn-send-space{
+	    margin: 50px 0px;
+	}
+	.btn-send{
+	    border: 1px solid;
+    	border-radius: initial;
+	    padding: 10px 40px;
+	    background-color: rgba(255, 255, 255, 0);
 	}
 
 /* 3. Preloader */
@@ -192,14 +204,14 @@
 	#about .paragraph{
 	    margin: 60px 30px;
 	}
-	#about .btn-send-space{
+	/*#about .btn-send-space{
 	    margin: 50px 0px;
 	}
 	#about .btn-send{
 	    border: 1px solid;
     	border-radius: initial;
 	    padding: 10px 40px;
-	}
+	}*/
 	#about .btn-send:hover{
     	background-color:#333333;
     	color:#fff;
@@ -208,7 +220,7 @@
 
 /* Services */
 	#services {
-	    padding-bottom: 100px;
+	    
 	}
 	#services .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
 	    padding: 20px;
@@ -253,3 +265,55 @@
 		color:#fff;
 		font-weight:700;
 	}
+
+/* 8. Works */
+	#our-works {
+        background-image: url(../assets/images/about/about.jpg); 
+       	height:880px;
+    	margin-top: -20px;
+    	margin-bottom:100px;
+	}
+	#our-works {
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size:cover;
+		width:100%;
+		position: relative;
+
+	}
+	#our-works:before {
+		background-color:#ccbbff;
+		content: "";
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0.9;
+		position: absolute;
+		width: 100%;
+	}
+	#our-works .work-style{
+		font-size:50px;
+	    color: #fff;
+	    
+	}
+	#our-works .item{
+		padding-left: 140px;
+	    padding-right: 140px;
+	    opacity: 0.6;
+	}
+
+	#our-works .carousel-inner{
+	    padding-top: 40px;
+	}
+	/*#our-works .carousel{
+	    margin-top: 50px;
+	}*/
+	#our-works .carousel-indicators{
+	    top:480px;
+	}
+	#our-works .item img{
+		width:100%;
+	}
+	/*#our-works .carousel-control{
+		width: 0;
+	}*/

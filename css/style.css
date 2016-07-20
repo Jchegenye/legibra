@@ -14,6 +14,7 @@
 		4. Header
 		5. Home
 		6. About
+		7. Services
 
 */
 
@@ -118,12 +119,12 @@
 		height: 650px;
 	}
 	#home-carousel .item:before{
-		background-color: rgba(217, 202, 253, 0.62);
+		background-color: #ccbbff;
 		content: "";
 		height: 100%;
 		top: 0;
 		left: 0;
-		opacity: 0.5;
+		opacity: 0.6;
 		position: absolute;
 		width: 100%;
 	}
@@ -152,31 +153,31 @@
 
 /* 6. About */
 	#about{
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+	    padding-bottom: 100px;
 	}
 	#about .col-md-4{
 		padding-left:0;
 		padding-right:0;
 	}
-	#home-carousel  .about-image {
+	#about .photo{
+		background-image: url(../assets/images/about/about.jpg); height: 460px;
+	}
+	#about .about-image {
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-size:cover;
 		width:100%;
 	}
 	#about .about-image:before {
-		background-color:rgba(217, 202, 253, 0.62);
+		background-color:#ccbbff;
 		content: "";
 		height: 100%;
 		top: 0;
 		left: 0;
-		opacity: 0.5;
+		opacity: 0.6;
 		position: absolute;
 		width: 100%;
-	}
-	#about .photo{
-		background-image: url(../assets/images/about/about.jpg); height: 460px; opacity: 0.3;
 	}
 	#about .fa-user{
 	    font-size: 110px;
@@ -199,4 +200,56 @@
     	border-radius: initial;
 	    padding: 10px 40px;
 	}
-	
+	#about .btn-send:hover{
+    	background-color:#333333;
+    	color:#fff;
+	 	border: 0px solid;
+	}
+
+/* Services */
+	#services {
+	    padding-bottom: 100px;
+	}
+	#services .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	    padding: 20px;
+	    vertical-align: top;
+	    border-top: 0px solid;
+	    text-align: center;
+        line-height: normal;
+        cursor:pointer;
+	}
+	#services .gray-td{
+		background-color: gainsboro;
+	}
+	#services .our-services-p{
+	    padding-top: 75px;
+	}
+	#services .fa{
+		font-size: 60px;
+    	padding-top: 40px;
+	}
+	#services .photo{
+	   background-image: url(../assets/images/about/about.jpg); color:#fff;
+	}
+	#services .services-image {
+		background-position: center top;
+		background-repeat: no-repeat;
+		/*background-size:cover;*/
+		width:100%;
+		position: relative;
+
+	}
+	#services .services-image:before {
+		background-color:#ccbbff;
+		content: "";
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0.6;
+		position: absolute;
+		width: 100%;
+	}
+	#services .services-image p{
+		color:#fff;
+		font-weight:700;
+	}

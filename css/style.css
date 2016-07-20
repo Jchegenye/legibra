@@ -18,6 +18,7 @@
 		8. Works
 		9. Our Team
 		10. Testimonial
+		11. Newslettter
 
 */
 
@@ -136,7 +137,7 @@
 		height: 650px;
 	}
 	#home-carousel .item:before{
-		background-color: #ccbbff;
+		background-color: #a787ff;
 		content: "";
 		height: 100%;
 		top: 0;
@@ -187,7 +188,7 @@
 		width:100%;
 	}
 	#about .about-image:before {
-		background-color:#ccbbff;
+		background-color:#a787ff;
 		content: "";
 		height: 100%;
 		top: 0;
@@ -257,7 +258,7 @@
 
 	}
 	#services .services-image:before {
-		background-color:#ccbbff;
+		background-color:#a787ff;
 		content: "";
 		height: 100%;
 		top: 0;
@@ -287,7 +288,7 @@
 
 	}
 	#our-works:before {
-		background-color:#ccbbff;
+		background-color:#a787ff;
 		content: "";
 		height: 100%;
 		top: 0;
@@ -336,7 +337,7 @@
 	    padding-top: 0px;
 	}
 	#our-team .our-team-sub-box{
-	    background-color: #ccbbff;
+	    background-color: #a787ff;
         padding: 15px 0px;
 	}
 	#our-team .fa {
@@ -384,7 +385,7 @@
 		right: 0px;
 	    position: absolute;
 	    top: 0;
-	    background-color: #ccbbff;
+	    background-color: #a787ff;
 	    padding: 10px;
 	}
 	#testimonial .testimonial-fa{
@@ -407,4 +408,57 @@
 
 	#testimonial .carousel-indicators{
 		top:120px;
+	}
+
+/* 11. Newslettter */
+	#newsletter {
+		background-color: #a787ff;
+    	padding: 30px 0px;
+	}
+	#newsletter p{
+		color:#fff;
+	}
+	#newsletter .form-control{
+	    background-color: #a787ff;
+	    border: 1px solid #fff;
+	    height: 38px;
+	    color: #fff;
+	}
+	#newsletter .btn-newsletter{
+	    color: #ffffff;
+	    background-color: #a787ff;
+	    border-top: 1px solid #ffffff;
+	    border-bottom: 1px solid #ffffff;
+	    border-right: 1px solid #ffffff;
+	}
+
+/* 12. Contact Us */
+	#contact {}
+
+	#contact .google-frame {
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size:cover;
+		width:100%;
+	}
+	#contact .google-frame:before{
+		background-color: #a787ff;
+		content: "";
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0.6;
+		position: absolute;
+		width: 100%;
+	}
+
+	#contact form{
+	    position: relative;
+		top: -400px;
+	}
+	#contact .form-control{
+	    color: #ffffff;
+		background-color: rgba(255, 255, 255, 0.64);
+		background-image: none;
+		border: 1px solid rgba(204, 204, 204, 0);
 	}
